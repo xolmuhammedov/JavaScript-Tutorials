@@ -8,3 +8,6 @@ MyButton.onclick = function () {
   randomNum = Math.floor(Math.random() * max) + min;
   MyLabel.textContent = randomNum;
 };
+
+
+//i am trying to understand all of these codes

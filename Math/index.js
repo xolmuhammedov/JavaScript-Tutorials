@@ -26,3 +26,5 @@ console.log(Math.sin(Math.PI / 2)); // 1 (π/2 sinusi 1 ga teng)
 console.log(Math.log(Math.E)); // 1 (e ni natural logarifmi)
 console.log(Math.exp(1)); // e (e darajasi)
 console.log(Math.PI); // π
+
+//hello

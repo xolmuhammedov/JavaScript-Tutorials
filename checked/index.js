@@ -31,3 +31,4 @@ mySubmit.onclick = function(){
         paymentResult.textContent = `You must select a payment type`
     }
 }
+
