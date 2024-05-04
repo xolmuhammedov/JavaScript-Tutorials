@@ -10,4 +10,4 @@ MyButton.onclick = function () {
 };
 
 
-//i am trying to understand all of these codes man
+//i am trying to understand all of these codes ma
