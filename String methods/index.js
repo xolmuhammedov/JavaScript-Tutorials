@@ -3,3 +3,5 @@
 
 let greetings = 'Hello'
 let greetings2 = 'Hi'
+
+console.log(greetings.toCase)
