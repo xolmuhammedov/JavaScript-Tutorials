@@ -4,4 +4,4 @@
 let greetings = 'Hello'
 let greetings2 = 'Hi'
 
-// console.log(greetings.toLowerCase)
+alert('hello')
