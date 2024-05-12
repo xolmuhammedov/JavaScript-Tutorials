@@ -18,4 +18,3 @@ parseInt(a);
 let b = "0";
 b = +b;
 console.log(b, typeof b);
-/////
