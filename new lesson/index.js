@@ -13,5 +13,5 @@ console.log(maximum);
 let mevalar = [`Olma`, `Nok`, `Anor`, `Behi`, `Shaftoli`];
 let sabzavotlar = [`Bodring`, `Piyoz`, `Karam`, `Baqilajon`];
 let yangiArray = [...mevalar, ...sabzavotlar, "Qalampir", "Kartoshka"];
-//ushbu holatda 2ta arrayni birlashtirish va element qo'shish mumkun
+//ushbu holatda 2ta arrayni birlashtirish va element qo'shish mumkun //
 console.log(yangiArray);
