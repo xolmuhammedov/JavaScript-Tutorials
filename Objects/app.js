@@ -11,9 +11,8 @@ pet[true] = "In London" // this is adding this key
 pet.bark = function(){
     return "WOOF!!! WOOF!!!"
 }
-console.log(pet.bark())
+
 //All KEYS get stringified they will be STRINGS
 
 // if you try to acces a variable that doesn't exist it
 // it return's undefined
-
