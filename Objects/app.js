@@ -16,3 +16,4 @@ console.log(pet.bark())
 
 // if you try to acces a variable that doesn't exist it
 // it return's undefined
+
