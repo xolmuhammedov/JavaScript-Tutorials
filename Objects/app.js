@@ -19,18 +19,34 @@ pet.bark = function(){
 
 
 
-let account = {
+const account = {
     name: "Webbrain Academy",
-    major: "Frontend, bunker",
+    major: "Frontend, bunker", //agar 1ta key 2marta yasalgan bolsa ohirisi chiqadi
+    name: "Webbrain academy",
     founded: 2020,
     "full name": "hELLO",
     0:25452,
 }
-console.log(account.name) // bu oddiy chaqirish usului
+Object.freeze(account); // bizda object CONSTda berilyapti lekn uni ichidagi
+// keylarni ozgartirsak boladi objectni ozini emas Object.freeze() 
+// key yoki value larni ham ozgartirishga tosqinlik qiladi muzlatadi tamom
+                       
+account.founded = 5; // update qilish
+delete account.major // key ni ochirib yuborish
+console.log(account);
+
+
+
+
+//let name = "major";
+//console.log(account.name);
+//console.log(account[name]);
+//console.log(account["name"]);
+//console.log(account.name) // bu oddiy chaqirish usului
 //console.log(account["full name"]) // agar keyni orasida joy bolsa shunday chaqiriladi
 //console.log(account[0]); // raqamli key larni shunday chaqiramiz
 // tortburchak qovus bilan chaqirishni dynamic deyishadi
 
-let key = "major";
-console.log(account.key)
-console.log(account[key])
+// let key = "major";
+// console.log(account.key)
+// console.log(account[key])
