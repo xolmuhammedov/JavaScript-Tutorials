@@ -34,8 +34,8 @@ ac1.major
 
 
 ac1.name = "stcvx";
-const acc4 = structuredClone(ac1);
-console.log(acc4);
+const ac4 = structuredClone(ac1);
+console.log(ac4);
 
 
 
