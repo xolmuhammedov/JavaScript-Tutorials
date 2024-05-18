@@ -1,7 +1,7 @@
-const key = "name";
+const hi = "name";
 pet = {name: "Spicies" , height:40 , age: 1.5};
 
-//console.log(pet[key]) //Spices becasue it is equal to that name key
+//console.log(pet[hi]) //Spices becasue it is equal to that name key
 
 //console.log(pet["greetings"] = "bye") // you can add keys and values
 //like this "greetings" is a key "bye" is a value
@@ -23,7 +23,14 @@ let account = {
     name: "Webbrain Academy",
     major: "Frontend, bunker",
     founded: 2020,
-    "full name": "hELLO"
+    "full name": "hELLO",
+    0:25452,
 }
-console.log(account["name"]);
-console.log(account["full name"]);
+console.log(account.name) // bu oddiy chaqirish usului
+//console.log(account["full name"]) // agar keyni orasida joy bolsa shunday chaqiriladi
+//console.log(account[0]); // raqamli key larni shunday chaqiramiz
+// tortburchak qovus bilan chaqirishni dynamic deyishadi
+
+let key = "major";
+console.log(account.key)
+console.log(account[key])
