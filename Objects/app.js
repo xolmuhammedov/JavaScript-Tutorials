@@ -27,3 +27,4 @@ let account = {
 }
 console.log(account["name"]);
 console.log(account["full name"]);
+///
