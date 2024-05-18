@@ -16,6 +16,32 @@ pet.bark = function(){
 
 // if you try to acces a variable that doesn't exist it
 // it return's undefined
+///////////////////////////////////////////////////////////
+
+const ac1 = {
+    name: "Webbrain Academy",
+    major: "Frontend",
+};
+
+const ac2 = {
+    name: "Webbrain Academy",
+    major: "Frontend",
+};
+const ac3 = ac1
+console.log(ac1 == ac3);
+console.log(ac1 === ac3);
+ac1.major
+
+
+ac1.name = "stcvx";
+const acc4 = structuredClone(ac1);
+console.log(acc4);
+
+
+
+
+
+
 
 
 
@@ -30,10 +56,15 @@ const account = {
 Object.freeze(account); // bizda object CONSTda berilyapti lekn uni ichidagi
 // keylarni ozgartirsak boladi objectni ozini emas Object.freeze() 
 // key yoki value larni ham ozgartirishga tosqinlik qiladi muzlatadi tamom
-                       
+
+Object.seal(account) // bu bor ma'lumotni ozgartirishga huquq beradi
+// ochirib yoki qoshib bolmaydi bu berilgan dan keyin
 account.founded = 5; // update qilish
 delete account.major // key ni ochirib yuborish
 console.log(account);
+
+
+
 
 
 
