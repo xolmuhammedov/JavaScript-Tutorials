@@ -18,6 +18,8 @@ while(obj){
 }
 
 
+
+
 // let nums = [1,5,5625,"hello"];
 
 // for(let i of nums){
