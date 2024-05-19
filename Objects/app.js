@@ -81,3 +81,38 @@ console.log(account);
 // let key = "major";
 // console.log(account.key)
 // console.log(account[key])
+
+
+
+let name = "Webbrain Academy";
+let major = "Frontend";
+
+let user = {
+    name, // agar value variable korinishida kelsa va
+    major, // variabe key bilan bir xil bolsa ozini yozib ketsak boladi
+}
+console.log(user) // va bu bizga key va value daqa bir xil ishlaydi
+
+
+
+// in keyword haqida 
+// bu bizga birorta element objectni ichida bor yoki yoqligi check qiladi
+console.log(`major` in user) // bu faqat boolean type
+
+
+// Object.assign() haqida // bir objectni boshqasiga tayinlaydi
+const target = {a:1 , b:2};
+const source = {b:4 , c:5};
+Object.assign(target , source)
+console.log(target) // source ni targetga qoshib qoyyabdi 
+
+
+for (let i in account){
+    console.log(i)
+} // only taking the KEYS
+
+for (let key in account) {
+    if (account.hasOwnProperty(key)) {
+        console.log(account[key]);
+    } // only taking the VALUES
+}
