@@ -113,6 +113,6 @@ for (let i in account){
 
 for (let key in account) {
     if (account.hasOwnProperty(key)) {
-        console.log(account[key]);
+        console.log(account[key])
     } // only taking the VALUES
 }
