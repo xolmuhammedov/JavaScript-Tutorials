@@ -116,3 +116,11 @@ for (let key in account) {
         console.log(account[key])
     } // only taking the VALUES
 }
+
+const fruits = {
+    first:"apple",
+    second:"pear",
+};
+console.log(fruits.first);
+fruits.first = "grape";
+console.log(fruits.first);
