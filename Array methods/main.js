@@ -28,9 +28,12 @@ console.log(filteredValues)
 
 
 
-
-
-const arr = [1,6,8,9,8,4,6040,4,15,15]
 let arr2 = [1,2,3,4,5]
 const functMap = arr2.map(param => param)
 console.log(functMap)
+
+
+const arr = [1,6,8,8,9,8,4,6040,4,15,15];
+const uniqueNumbers = new Set(arr);
+uniqueNumbers.delete(6040)
+console.log(uniqueNumbers)
