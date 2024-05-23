@@ -15,3 +15,22 @@ console.log(foundValue)
 const filterValues = number => number > 5;
 const filteredValues = result.filter(filterValues);
 console.log(filteredValues)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const arr = [1,6,8,9,8,4,6040,4,15,15]
+let arr2 = [1,2,3,4,5]
+const functMap = arr2.map(param => param + 2)
+console.log(functMap)
