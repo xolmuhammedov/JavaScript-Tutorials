@@ -1,12 +1,12 @@
-const cube = document.querySelector(".block");
+const cube = document.querySelector(".block1");
+const cube2 = document.querySelector(".block2");
+const cube3 = document.querySelector(".block3");
 
-cube.onclick = function changeCube() {
-    cube.style.backgroundColor = "blue";
-}
-changeCube();
+// cube.onclick = function changeCube() {
+//     cube.style.backgroundColor = "blue";
+// }
+// changeCube();
 
-
-if(cube == onclick){
-    cube.style.backgroundColor = "black";
-}else
-console.log(false , "brother")
+cube.addEventListener('click' , () => {
+    cube.classList.add(cube2)
+})
