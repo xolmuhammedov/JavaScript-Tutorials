@@ -8,5 +8,5 @@ const cube3 = document.querySelector(".block3");
 // changeCube();
 
 cube.addEventListener('click' , () => {
-    cube.classList.add(cube2)
+    cube.classList.add(cube2);
 })
