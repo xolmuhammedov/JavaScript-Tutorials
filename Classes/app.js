@@ -13,3 +13,10 @@ const gpa = (a = 0 , b = 0 , c = 0 , d = 0 ) => {
     return console.log(res);
 }
 console.log(gpa(3.5 , 4 , 4 , 3.5));
+
+
+
+const greeting = function() {
+    return console.log("Hello World!");
+}
+greeting();
