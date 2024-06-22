@@ -34,3 +34,6 @@ while(obj){
 // }
 // let b = 'hello';
 // console.log(b += ' world')
+
+let fruits = ['apple','pear','lemon'];
+console.log(fruits);

@@ -6,61 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="block1">
-            <h1>Click me!</h1>
-        </div>
-        <div class="block2">
-            <h1>Click me!</h1>
-        </div>
-        <div class="block3">
-            <h1>Click me!</h1>
-        </div>
+    <h1>addEventListener</h1>
+    <button id="btn">knopka</button>
+    <img src="rasm.jpg" alt="img" id="rasm" width="300" style="display: inline;">
+
+    <div class="box">
+        <i id="i"></i>
     </div>
 
+
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        .box{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            background-color: black;
         }
-        .container{
-            max-width: 1000px;
-            height: 100vh;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        #i{
+            display: block;
+            position: absolute;
+            width: 15px;
+            height: 15px;
             background-color: red;
         }
-        .block1{
-            margin-top: 50px;
-            width: 300px;
-            height: 300px;
-            background-color: aqua;
-            border-radius: 10px;
-            text-align: center;
-            cursor: pointer;
-        }
-        .block2{
-            margin-top: 50px;
-            width: 300px;
-            height: 300px;
-            background-color: rgb(111, 0, 255);
-            border-radius: 10px;
-            text-align: center;
-            cursor: pointer;
-        }
-        .block3{
-            margin-top: 50px;
-            width: 300px;
-            height: 300px;
-            background-color: rgb(122, 147, 33);
-            border-radius: 10px;
-            text-align: center;
-            cursor: pointer;
-        }
     </style>
+
+    <p onclick="alert('p alert boldi');">Lorem ipsum dolor sit amet.</p>
+
     <script src="script.js"></script>
 </body>
 </html>
