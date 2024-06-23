@@ -17,4 +17,5 @@ if (userPrompt == data.user & userPassword == data.pass) {
 }
 
 
+
 //userPrompt == username & userPassword == password ? alert("hi") : alert("sf");
