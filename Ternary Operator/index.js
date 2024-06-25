@@ -33,3 +33,4 @@ console.log(`Your total is $${purchaseAmount - purchaseAmount * (discount/100)}`
 
 
 
+
