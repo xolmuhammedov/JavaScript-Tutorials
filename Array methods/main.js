@@ -38,8 +38,6 @@ console.log(typeof something) //object
 
 
 
-
-
 // let arr2 = [1,2,3,4,5]
 // const functMap = arr2.map(param => param)
 // console.log(functMap)

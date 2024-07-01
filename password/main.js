@@ -16,9 +16,4 @@ if (userPrompt == data.user & userPassword == data.pass) {
     alert("Try again!")
 }
 
-const dataDB = {
-    id: 1,
-    user: "sj",
-};
-
 //userPrompt == username & userPassword == password ? alert("hi") : alert("sf");
