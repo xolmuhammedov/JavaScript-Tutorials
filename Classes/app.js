@@ -24,3 +24,8 @@ greeting();
 
 let arr = [1,4,5,79,12,18,2,7];
 console.log(arr.toSorted());
+
+const filter = function(){
+    return console.log(46);
+}
+filter();
